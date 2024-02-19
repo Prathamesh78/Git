@@ -73,5 +73,3 @@ This guide provides a reference for common Git commands along with their operati
       ```bash
       git status
       ```
-
-This README provides a quick reference for common Git commands. For more detailed information, refer to the Git documentation or online resources.
