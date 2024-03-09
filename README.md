@@ -41,7 +41,7 @@ This guide provides a reference for common Git commands along with their operati
      ```
      ![image](https://github.com/prathamesh78/Git/assets/104883046/ed9f946d-f455-4050-b272-d81fd1a3b66e)
 
-3. **git rm**
+3. **git rm**:
    - **Operation**: Remove the file from staging area to working directory
    - **Example**: 
      ```bash
