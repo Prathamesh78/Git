@@ -10,7 +10,7 @@ This guide provides a reference for common Git commands along with their operati
      ```bash
      git init
      ```
-   ![image](https://github.com/prathamesh78/Git/assets/104883046/d47fbad6-01f2-43b8-abc4-e3183f2c95ab)
+     ![image](https://github.com/prathamesh78/Git/assets/104883046/d47fbad6-01f2-43b8-abc4-e3183f2c95ab)
 
 
 2. **git add**:
