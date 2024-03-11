@@ -142,7 +142,35 @@ This guide provides a reference for common Git commands along with their operati
    - **Operation**: create a repository, Initialize the repository, create .gitignore file and add the files and folders which you want to ignore
      ![image](https://github.com/prathamesh78/Git/assets/104883046/ad706b81-36fc-4f1e-bf8b-71ac7e20da6c)
      ![image](https://github.com/prathamesh78/Git/assets/104883046/ce8fdab9-4e88-43c0-bed1-5fcb86dd0912)
- 
+
+ 10. **git branch**:
+     - **Operation**: List, create, or delete branches.
+     - **Example**:
+       ```bash
+       git branch feature_branch
+       ```
+       
+     - **Example**:
+       ```bash
+       git switch -c <feature_branch>
+       ```
+   
+     - **Example**:
+       ```bash
+       git switch <master>
+       ```
+   
+     - **Example**:
+       ```bash
+       git checkout -b <feature_branch>
+       ```
+   
+     - **Example**:
+       ```bash
+       git branch -d <feature_branch>
+       ```
+       ![image](https://github.com/prathamesh78/Git/assets/104883046/882896dc-158a-4af1-93e0-0c9a92f2a8e2)
+
 10. **git clone**:
    - **Operation**: Clone a repository into a new directory.
    - **Example**:
@@ -162,20 +190,6 @@ This guide provides a reference for common Git commands along with their operati
    - **Example**:
      ```bash
      git pull origin master
-     ```
-
-13. **git branch**:
-   - **Operation**: List, create, or delete branches.
-   - **Example**:
-     ```bash
-     git branch feature_branch
-     ```
-
-14. **git checkout**:
-   - **Operation**: Switch branches or restore working tree files.
-   - **Example**:
-     ```bash
-     git checkout feature_branch
      ```
 
 15. **git merge**:
