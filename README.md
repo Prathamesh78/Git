@@ -129,43 +129,56 @@ This guide provides a reference for common Git commands along with their operati
      ```
      ![image](https://github.com/prathamesh78/Git/assets/104883046/6b06258d-6554-4b35-8ad7-ec8608ae4da9)
 
-     
-8. **git clone**:
+8. **git revert**:
+   - **Operation**: To revert the changes at a specific commit. It is same as git reset --hard 
+   - **Example**:
+     ```bash
+     git revert <commit_id>
+     ```
+     ![image](https://github.com/prathamesh78/Git/assets/104883046/947ce939-e5a4-44e9-9b8a-9926b51fef10)
+     ![image](https://github.com/prathamesh78/Git/assets/104883046/c2cc9629-2a64-4673-a6b5-559f3d5490ab)
+
+9. **git ignore**: It is used to ignore the files/folders in the git repository from tracking
+   - **Operation**: create a repository, Initialize the repository, create .gitignore file and add the files and folders which you want to ignore
+     ![image](https://github.com/prathamesh78/Git/assets/104883046/ad706b81-36fc-4f1e-bf8b-71ac7e20da6c)
+     ![image](https://github.com/prathamesh78/Git/assets/104883046/ce8fdab9-4e88-43c0-bed1-5fcb86dd0912)
+ 
+10. **git clone**:
    - **Operation**: Clone a repository into a new directory.
    - **Example**:
      ```bash
      git clone <repository_url>
      ```
 
-9. **git push**:
+11. **git push**:
    - **Operation**: Update remote refs along with associated objects.
    - **Example**:
      ```bash
      git push origin master
      ```
 
-10. **git pull**:
+12. **git pull**:
    - **Operation**: Fetch from and integrate with another repository or a local branch.
    - **Example**:
      ```bash
      git pull origin master
      ```
 
-11. **git branch**:
+13. **git branch**:
    - **Operation**: List, create, or delete branches.
    - **Example**:
      ```bash
      git branch feature_branch
      ```
 
-12. **git checkout**:
+14. **git checkout**:
    - **Operation**: Switch branches or restore working tree files.
    - **Example**:
      ```bash
      git checkout feature_branch
      ```
 
-13. **git merge**:
+15. **git merge**:
    - **Operation**: Join two or more development histories together.
    - **Example**:
      ```bash
