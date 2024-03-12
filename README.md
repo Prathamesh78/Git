@@ -187,6 +187,14 @@ This guide provides a reference for common Git commands along with their operati
 
       ![image](https://github.com/prathamesh78/Git/assets/104883046/ed507536-815a-4f8a-ae69-d17b8e5c1c8c)
 
+12. **git rebase**:
+    - **Operation**: To maintain linear commit history
+    - **Example**:
+      ```bash
+      git rebase <target_branch>
+      ```
+
+
 10. **git clone**:
    - **Operation**: Clone a repository into a new directory.
    - **Example**:
