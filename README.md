@@ -193,6 +193,7 @@ This guide provides a reference for common Git commands along with their operati
       ```bash
       git rebase <target_branch>
       ```
+      ![image](https://github.com/prathamesh78/Git/assets/104883046/ffb00c2f-ae56-428f-aa2a-0a60f63e3ce2)
 
 
 10. **git clone**:
