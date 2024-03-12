@@ -179,11 +179,7 @@ This guide provides a reference for common Git commands along with their operati
      ```
      ![image](https://github.com/prathamesh78/Git/assets/104883046/6f05ef14-1392-4a58-8f8b-df50597f571f)
   - **Operation**: Conflict resolution of branches
-  - **Solution**: - Identify the file(s) causing the issue in target branch.
-				      - Open the file and review the file content.
-						- Decide which record has to be retained/deleted.
-						- Remove the header and footer, Update the file content.
-						- add the changes and commit the changes in target branch.
+  - **Solution**: Identify the file(s) causing the issue in target branch, Open the file and review the file content, Decide which record has to be retained/deleted, Remove the header and footer, Update the file content, add the changes and commit the changes in target branch.
 10. **git clone**:
    - **Operation**: Clone a repository into a new directory.
    - **Example**:
