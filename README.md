@@ -177,15 +177,15 @@ This guide provides a reference for common Git commands along with their operati
       ```bash
       git merge feature_branch
       ```
-     ![image](https://github.com/prathamesh78/Git/assets/104883046/6f05ef14-1392-4a58-8f8b-df50597f571f)
+      ![image](https://github.com/prathamesh78/Git/assets/104883046/6f05ef14-1392-4a58-8f8b-df50597f571f)
     - **Operation**: Conflict resolution of branches
     - **Solution**: Identify the file(s) causing the issue in target branch, Open the file and review the file content, Decide which record has to be retained/deleted, Remove the header and footer, Update the file content, add the changes and commit the changes in target branch.
 
-     ![image](https://github.com/prathamesh78/Git/assets/104883046/e64d641d-d852-4663-9732-24ee0cac0245)
+      ![image](https://github.com/prathamesh78/Git/assets/104883046/e64d641d-d852-4663-9732-24ee0cac0245)
 
-     ![image](https://github.com/prathamesh78/Git/assets/104883046/db622449-f7da-4a92-9d65-3466a2734faa)
+      ![image](https://github.com/prathamesh78/Git/assets/104883046/db622449-f7da-4a92-9d65-3466a2734faa)
 
-     ![image](https://github.com/prathamesh78/Git/assets/104883046/ed507536-815a-4f8a-ae69-d17b8e5c1c8c)
+      ![image](https://github.com/prathamesh78/Git/assets/104883046/ed507536-815a-4f8a-ae69-d17b8e5c1c8c)
 
 10. **git clone**:
    - **Operation**: Clone a repository into a new directory.
