@@ -202,6 +202,8 @@ This guide provides a reference for common Git commands along with their operati
       git merge --squash <branch>
       ```
 
+      ![image](https://github.com/prathamesh78/Git/assets/104883046/aea98389-3238-4d5c-baa5-17c373c3ad1f)
+
       ![image](https://github.com/prathamesh78/Git/assets/104883046/b0c6776f-497f-414d-b1a6-8322853cd673)
 
       ![image](https://github.com/prathamesh78/Git/assets/104883046/5de19f20-3edd-4071-81ba-690bf9ad3473)
