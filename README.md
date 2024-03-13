@@ -208,13 +208,74 @@ This guide provides a reference for common Git commands along with their operati
 
       ![image](https://github.com/prathamesh78/Git/assets/104883046/5de19f20-3edd-4071-81ba-690bf9ad3473)
 
-10. **Rename the Branch**:
+14. **Rename the Branch**:
     - **Operation**: Rename the Branch name
     - **Example**:
       ```bash
       git branch -M <branch_name>
       ```
-     
+
+14. **git stash**:
+    - **Operation**: To save the uncommited changes to a temporary area.
+    - **Example**:
+      ```bash
+      git stash save "commit message"
+      ```
+      ![image](https://github.com/prathamesh78/Git/assets/104883046/df069679-997b-4072-afda-a54c599eb9cd)
+
+    - **Operation**: To get the list of stashed entries.
+    - **Example**:
+      ```bash
+      git stash list
+      ```
+      ![image](https://github.com/prathamesh78/Git/assets/104883046/42ffd244-a558-46cd-bbc4-15a9a47ac253)
+
+    - **Operation**: To apply the latest entry from the stash list, back to staging area.
+    - **Example**:
+      ```bash
+      git stash apply
+      ```
+      ![image](https://github.com/prathamesh78/Git/assets/104883046/dfa69d93-ddc7-456d-b8fa-f6ea0f8f0d16)
+   
+      Applying for specific entry
+      ```bash
+      git stash apply stash@{1}
+      ```
+      ![image](https://github.com/prathamesh78/Git/assets/104883046/3a42d86c-f06a-446b-a343-5b240c204afc)
+
+    - **Operation**: To delete/drop the latest entry from the stash list
+    - **Example**:
+      ```bash
+      git stash drop
+      ```
+      ![image](https://github.com/prathamesh78/Git/assets/104883046/c528c998-aee9-4575-84a1-e593cb1b16ca)
+
+      Drop a specfic entry
+      ```bash
+      git stash drop stash@{1}
+      ```
+      ![image](https://github.com/prathamesh78/Git/assets/104883046/18e1e305-9767-4708-a057-09e8f242facf)
+
+    - **Operation**: To apply the latest entry from the stash list, back to staging area as well as remove that entry from the stash list.
+    - **Example**:
+      ```bash
+      git stash pop
+      ```
+      ![image](https://github.com/prathamesh78/Git/assets/104883046/f110d6a9-086e-4ef6-8530-c77beced054a)
+
+      pop specfic entry
+      ```bash
+      git stash pop stash@{0}
+      ```
+      ![image](https://github.com/prathamesh78/Git/assets/104883046/1b331de1-702e-4544-b833-df391b2ca04a)
+
+      Clear a stash list
+      ```bash
+      git stash clear
+      ```
+      ![image](https://github.com/prathamesh78/Git/assets/104883046/4efd436d-027d-40df-a9ba-62275b432f2a)
+
+                        
 10. **git clone**:
    - **Operation**: Clone a repository into a new directory.
    - **Example**:
