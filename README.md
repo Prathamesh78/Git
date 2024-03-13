@@ -208,6 +208,13 @@ This guide provides a reference for common Git commands along with their operati
 
       ![image](https://github.com/prathamesh78/Git/assets/104883046/5de19f20-3edd-4071-81ba-690bf9ad3473)
 
+10. **Rename the Branch**:
+    - **Operation**: Rename the Branch name
+    - **Example**:
+      ```bash
+      git branch -M <branch_name>
+      ```
+     
 10. **git clone**:
    - **Operation**: Clone a repository into a new directory.
    - **Example**:
