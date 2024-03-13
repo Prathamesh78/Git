@@ -276,12 +276,13 @@ This guide provides a reference for common Git commands along with their operati
       ![image](https://github.com/prathamesh78/Git/assets/104883046/4efd436d-027d-40df-a9ba-62275b432f2a)
 
                         
-10. **git clone**:
-   - **Operation**: Clone a repository into a new directory.
-   - **Example**:
-     ```bash
-     git clone <repository_url>
-     ```
+15. **git clone**:
+    - **Operation**: Clone a repository into a new directory.
+    - **Example**:
+      ```bash
+      git clone <repository_url>
+      ```
+      ![image](https://github.com/prathamesh78/Git/assets/104883046/05f346e7-74b5-4606-9396-81946f445c41)
 
 11. **git push**:
    - **Operation**: Update remote refs along with associated objects.
