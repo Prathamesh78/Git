@@ -284,24 +284,24 @@ This guide provides a reference for common Git commands along with their operati
       ![image](https://github.com/prathamesh78/Git/assets/104883046/05f346e7-74b5-4606-9396-81946f445c41)
 
 16. **git remote**:
-   - **Operation**: To get the list of remote repository linked to the local repository
-   - **Example**:
-     ```bash
-     git remote -v
-     ```
-     ![image](https://github.com/Prathamesh78/Git/assets/104883046/e62d7367-8586-4b85-b946-daefdb9eb506)
+    - **Operation**: To get the list of remote repository linked to the local repository
+    - **Example**:
+      ```bash
+      git remote -v
+      ```
+      ![image](https://github.com/Prathamesh78/Git/assets/104883046/e62d7367-8586-4b85-b946-daefdb9eb506)
    
 17. **git push**:
-   - **Operation**: To push the changes to the remote repository using the credentials
-   - **Example**:
-     ```bash
-     git push -u origin <branch_name>
-     ```
-     ![image](https://github.com/Prathamesh78/Git/assets/104883046/0f295c71-b288-4130-a2aa-d79fc26318d6)
+    - **Operation**: To push the changes to the remote repository using the credentials
+    - **Example**:
+      ```bash
+      git push -u origin <branch_name>
+      ```
+      ![image](https://github.com/Prathamesh78/Git/assets/104883046/0f295c71-b288-4130-a2aa-d79fc26318d6)
 
-     ![image](https://github.com/Prathamesh78/Git/assets/104883046/4d304bc1-364d-4857-acca-1bd907d41200)
+      ![image](https://github.com/Prathamesh78/Git/assets/104883046/4d304bc1-364d-4857-acca-1bd907d41200)
 
-     ![image](https://github.com/Prathamesh78/Git/assets/104883046/64bf12d9-8032-48b1-874d-b404a33fc934)
+      ![image](https://github.com/Prathamesh78/Git/assets/104883046/64bf12d9-8032-48b1-874d-b404a33fc934)
  
 18. **git fetch**:
     - **Operation**: To check for the incremental changes and if there are any changes exist in the remote repository, it will update the changes in the local repository. NOT in the Working Directory.
