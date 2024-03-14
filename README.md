@@ -237,7 +237,7 @@ This guide provides a reference for common Git commands along with their operati
       ```
       ![image](https://github.com/prathamesh78/Git/assets/104883046/dfa69d93-ddc7-456d-b8fa-f6ea0f8f0d16)
    
-      Applying for specific entry
+    - **Applying for specific entry**
       ```bash
       git stash apply stash@{1}
       ```
@@ -250,7 +250,7 @@ This guide provides a reference for common Git commands along with their operati
       ```
       ![image](https://github.com/prathamesh78/Git/assets/104883046/c528c998-aee9-4575-84a1-e593cb1b16ca)
 
-      Drop a specfic entry
+    - **Drop a specfic entry**
       ```bash
       git stash drop stash@{1}
       ```
@@ -263,19 +263,18 @@ This guide provides a reference for common Git commands along with their operati
       ```
       ![image](https://github.com/prathamesh78/Git/assets/104883046/f110d6a9-086e-4ef6-8530-c77beced054a)
 
-      pop specfic entry
+    - **pop specfic entry**
       ```bash
       git stash pop stash@{0}
       ```
       ![image](https://github.com/prathamesh78/Git/assets/104883046/1b331de1-702e-4544-b833-df391b2ca04a)
 
-      Clear a stash list
+    - **Clear a stash list**
       ```bash
       git stash clear
       ```
       ![image](https://github.com/prathamesh78/Git/assets/104883046/4efd436d-027d-40df-a9ba-62275b432f2a)
-
-                        
+                      
 15. **git clone**:
     - **Operation**: Clone a repository into a new directory.
     - **Example**:
@@ -284,16 +283,38 @@ This guide provides a reference for common Git commands along with their operati
       ```
       ![image](https://github.com/prathamesh78/Git/assets/104883046/05f346e7-74b5-4606-9396-81946f445c41)
 
-11. **git push**:
-   - **Operation**: Update remote refs along with associated objects.
+16. **git remote**:
+   - **Operation**: To get the list of remote repository linked to the local repository
    - **Example**:
      ```bash
-     git push origin master
+     git remote -v
      ```
+     ![image](https://github.com/Prathamesh78/Git/assets/104883046/e62d7367-8586-4b85-b946-daefdb9eb506)
+   
+17. **git push**:
+   - **Operation**: To push the changes to the remote repository using the credentials
+   - **Example**:
+     ```bash
+     git push -u origin <branch_name>
+     ```
+     ![image](https://github.com/Prathamesh78/Git/assets/104883046/0f295c71-b288-4130-a2aa-d79fc26318d6)
 
-12. **git pull**:
-   - **Operation**: Fetch from and integrate with another repository or a local branch.
-   - **Example**:
-     ```bash
-     git pull origin master
-     ```
+     ![image](https://github.com/Prathamesh78/Git/assets/104883046/4d304bc1-364d-4857-acca-1bd907d41200)
+
+     ![image](https://github.com/Prathamesh78/Git/assets/104883046/64bf12d9-8032-48b1-874d-b404a33fc934)
+ 
+18. **git fetch**:
+    - **Operation**: To check for the incremental changes and if there are any changes exist in the remote repository, it will update the changes in the local repository. NOT in the Working Directory.
+    - **Example**:
+      ```bash
+      git fetch
+      ```
+      ![image](https://github.com/Prathamesh78/Git/assets/104883046/0b885650-165d-436a-9ee7-618432ae87f6)
+
+19. **git pull**:
+    - **Operation**: To check for the incremental changes and if there are any changes exist in the remote repository, it will update the changes in the local repository as well as in the Working Directory
+    - **Example**:
+      ```bash
+      git pull 
+      ```
+      ![image](https://github.com/Prathamesh78/Git/assets/104883046/7852fdf4-9e23-43dd-836a-419f0b593895)
